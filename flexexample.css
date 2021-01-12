@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-half {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius:5px;
+}
+
+.flex-item-forth {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 20%;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+@media (max-width:800px) {
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+    }
+}
