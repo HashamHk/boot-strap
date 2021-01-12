@@ -27,6 +27,22 @@
     border-radius: 5px;
 }
 
+.flex-item-third {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 30%;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+.flex-item-full {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+}
 @media (max-width:800px) {
 
     .flex-item-right,
