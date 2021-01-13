@@ -7,21 +7,23 @@
     flex-wrap: nowrap;
     font-size: 30px;
     text-align: center;
+
+}
+
+.flex-item-full {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+    margin: 5px;
+    border: black 2px solid;
+    border-radius: 5px;
+    box-shadow: black 10px;
 }
 
 .flex-item-half {
     background-color: #f1f1f1;
     padding: 10px;
     flex: 50%;
-    margin: 5px;
-    border: black 2px solid;
-    border-radius: 5px;
-}
-
-.flex-item-forth {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 20%;
     margin: 5px;
     border: black 2px solid;
     border-radius: 5px;
@@ -36,10 +38,10 @@
     border-radius: 5px;
 }
 
-.flex-item-full {
+.flex-item-forth {
     background-color: #f1f1f1;
     padding: 10px;
-    flex: 100%;
+    flex: 20%;
     margin: 5px;
     border: black 2px solid;
     border-radius: 5px;
@@ -53,6 +55,7 @@
     border: black 2px solid;
     border-radius: 5px;
 }
+
 .flex-item-sixth {
     background-color: #f1f1f1;
     padding: 10px;
@@ -68,11 +71,12 @@
     .flex-item-left {
         flex: 100%;
     }
-    .flex-item-forth{
+
+    .flex-item-forth {
         flex: 50%;
     }
-    .flex-item-third
-    {
-        flex:50%;
+
+    .flex-item-third {
+        flex: 50%;
     }
 }
