@@ -1,8 +1,9 @@
 * {
     background-color: darkcyan;
 }
-body{
-    padding:20px ;
+
+body {
+    padding: 20px;
 }
 
 .flex-container {
@@ -10,59 +11,28 @@ body{
     background-color: gray;
     border-radius: 10px;
     flex-wrap: nowrap;
-    width: 35%;
+    width: 25%;
     /* margin: 20px; */
     padding: 10px;
-}
-
-.imgflex {
-    background-color: gray;
-    flex: 10%;
-}
-
-.progflex {
-    background-color: gray;
-    align-self: flex-end;
-    flex: 90%;
-    margin: 5px;
-    margin-bottom: 0px;
-}
-
-.btnflex {
-    background-color: gray;
-    flex: 100%;
-    align-self: center;
-    
-    
-}
-
-img {
-    width: 50px;
-    height: 50px;
-    background-color: gray;
-    margin: 10px;
+    flex-direction: column;
 }
 
 a {
     background-color: gray;
-    padding-left: 10px;
+    margin: 20px;
     font-size: 23px;
+    flex: 25%;
+}
+b {
+    background-color: gray;
+    padding-left: 50px;
+    font-size: 27px;
+    flex: 25%;
 }
 
-.pro1 {
-    width: 250px;
-    height: 7px;
-    background-color: beige;
-    margin: 10px;
-    margin-left: 30px;
-    border-radius: 5px;
-}
-
-.pro2 {
-    width: 200px;
-    height: 7px;
-    background-color: rgb(89, 133, 190);
-    border-radius: 5px;
+.flex-container> div{
+    background-color: gray;
+    padding: 10px;
 }
 
 button {

@@ -45,8 +45,9 @@ img {
 
 a {
     background-color: gray;
-    padding-left: 10px;
+    padding-left: 25px;
     font-size: 23px;
+    color: white;
 }
 
 .pro1 {
@@ -72,4 +73,5 @@ button {
     border-radius: 10px;
     margin-left: 100px;
     margin-top: 0px;
+    color: white;
 }
